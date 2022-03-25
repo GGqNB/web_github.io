@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+/* html {
+    background-image: url(../img/tex.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  } */
+
+body{
+    background:url(../img/tex.jpg);
+    background-image: url(../img/tex.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Rany';
+    src: url('../fonts/Rany-Light.otf') format('woff');
+    font-weight: 300;
+    font-display:swap ;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rany';
+    src: url('../fonts/Rany-Medium.otf') format('woff');
+    font-weight: 500;
+    font-display:swap ;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Rany';
+    src: url('../fonts/Rany-Bold.otf') format('woff');
+    font-weight: 700;
+    font-display:swap ;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vales';
+    src: url('../fonts/Veles-Regular.0.9.2.otf') format('woff');
+    font-weight: 400;
+    font-display:swap ;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berduka';
+    src: url('../fonts/berduka/BerdukaCita.otf') format('woff');
+    font-weight: 400;
+    font-display:swap ;
+    font-style: normal;
+}
+
+.linker{
+    font-family: Rany;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 16px;
+    color: #000000;
+    
+}
+.texture{
+    width: 100%;
+   height: 50px;
+}
+.carousel-item{
+   
+    height: 15%;
+}
+
+
+.black_block{
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(94, 92, 92);
+}
+
+.infor{
+    background: rgba(128, 126, 126, 0.9); /* Цвет фона */
+    width: 100%;
+    height: auto;
+}
+
+.h3_infor{
+    padding-top: 30px;
+    padding-left: 15px;
+    font-family: Rany;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.p_infor{
+    
+    text-align: right;
+    font-family: Rany;
+    font-style: normal;
+    font-weight: normal;
+   
+    font-weight: 400;
+}
+
+.my_card{
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.cards_second{
+    margin-top: 25px;
+}
+
+.card-text{
+    font-family:Berduka;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
